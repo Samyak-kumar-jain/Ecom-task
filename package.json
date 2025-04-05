@@ -6,8 +6,8 @@
   "scripts": {
     
     "build":"npm install && npm install --prefix Client && npm run build --prefix Client",
-    "start":"nodemon server/index.js",
-    "dev": "nodemon server/index.js"
+    "start":"nodemon Server/index.js",
+    "dev": "nodemon Server/index.js"
   },
   "author": "",
   "license": "ISC",
