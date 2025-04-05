@@ -20,10 +20,7 @@ connectToDatabase();
 const _dirname = path.resolve();
 app.use(
     cors({
-        origin: 'https://ecom-task-uzjg.onrender.com
-
-
-            ',
+        origin: 'https://ecom-task-uzjg.onrender.com',
         methods: ['GET','POST','DELETE','PUT'],
         allowedHeaders:[
             "Content-Type",
